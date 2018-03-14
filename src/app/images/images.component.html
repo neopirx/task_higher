@@ -1,0 +1,6 @@
+<div class="container" *ngFor="let x of imageLinks">
+  <img class="item" *ngIf="x" src="{{x}}">
+</div>
+<div class="container">
+<button class="nextButton" (click)="nextImages()">Next</button>
+</div>

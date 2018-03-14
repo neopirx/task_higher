@@ -1,0 +1,14 @@
+.container {
+    text-align: center;
+}
+
+.item {
+    width: 30%;
+    margin-top: 10px;
+}
+
+.nextButton {
+    width: 15%;
+    height: 25px;
+    margin-top: 10px;
+}
