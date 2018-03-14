@@ -8,15 +8,15 @@ import 'rxjs/add/operator/map';
 
 @Injectable()
 export class ImageService { 
-    private query: string;
 
-    private API_URL: string = environment.IMAGE_API_URL;
 
+    url = 'https://picsum.photos/list';
+    
     constructor(private _http: Http) {
 
     }
 
     getImage() {
-        return this._http.get(this.API_URL).map(res => res.json());
+        return this._http.get(this.url).map(res => res.json());
     }
 }

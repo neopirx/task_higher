@@ -5,5 +5,4 @@
 
 export const environment = {
   production: false,
-  IMAGE_API_URL: 'https://picsum.photos/list'
 };
